@@ -18,7 +18,6 @@ BuildRequires:  avahi-devel
 BuildRequires:  alsa-lib-devel
 BuildRequires:  systemd-units
 BuildRequires:  soxr-devel
-Requires:       libpopt-dev
 Requires:       openssl
 Requires:       avahi
 Requires:       libdaemon
