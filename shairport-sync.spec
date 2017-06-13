@@ -56,6 +56,9 @@ getent passwd %{name} &> /dev/null || useradd --system -c "%{name} User" \
 %doc AUTHORS LICENSES README.md
 
 %changelog
+* Tue Jun 13 2017 Unknown name 3.0-1
+- new package built with tito
+
 * Fri Feb 24 2017 Mike Brady <mikebrady@eircom.net> 2.8.6
 - Many changes including 8- 16- 24- and 32-bit output
 * Fri Oct 21 2016 Mike Brady <mikebrady@eircom.net> 2.8.6
