@@ -55,6 +55,14 @@ getent passwd %{name} &> /dev/null || useradd --system -c "%{name} User" \
 %doc AUTHORS LICENSES README.md
 
 %changelog
+* Tue Jun 13 2017 Dmitry Fontanov <spukst3r@gmail.com> 3.0-2
+- Bumped spec release (spukst3r@gmail.com)
+- Dropped libpopt from requires (spukst3r@gmail.com)
+
+* Tue Jun 13 2017 Dmitry Fontanov <spukst3r@gmail.com>
+- Bumped spec release (spukst3r@gmail.com)
+- Dropped libpopt from requires (spukst3r@gmail.com)
+
 * Tue Jun 13 2017 Unknown name 3.0-1
 - new package built with tito
 
