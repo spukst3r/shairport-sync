@@ -1,6 +1,6 @@
 Name:           shairport-sync
 Version:        3.0
-Release:        1
+Release:        2
 Summary:        AirTunes emulator. Shairport Sync adds multi-room capability with Audio Synchronisation.
 
 Group:          Applications/Multimedia
