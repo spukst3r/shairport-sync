@@ -55,6 +55,18 @@ getent passwd %{name} &> /dev/null || useradd --system -c "%{name} User" \
 %doc AUTHORS LICENSES README.md
 
 %changelog
+* Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com>
+- 
+
+* Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com>
+- 3.1 (spukst3r@gmail.com)
+- Automatic commit of package [shairport-sync] release [3.2-1].
+  (spukst3r@gmail.com)
+- Rollback tito's tag (spukst3r@gmail.com)
+- Automatic commit of package [shairport-sync] release [3.2-1].
+  (spukst3r@gmail.com)
+- Failsafe user/group creation for makefile.am (spukst3r@gmail.com)
+
 * Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com> 3.2-1
 - Rollback tito's tag (spukst3r@gmail.com)
 - Automatic commit of package [shairport-sync] release [3.2-1].
