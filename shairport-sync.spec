@@ -42,10 +42,10 @@ make install DESTDIR=%{buildroot}
 rm %{buildroot}/etc/shairport-sync.conf.sample
 
 %pre
-getent group %{name} &>/dev/null || groupadd --system %{name} >/dev/null
+getent group %{name} &>/dev/null || groupadd --system %{name} >/dev/null || true
 getent passwd %{name} &> /dev/null || useradd --system -c "%{name} User" \
         -d %{_localstatedir}/%{name} -m -g %{name} -s /sbin/nologin \
-        -G audio %{name} >/dev/null
+        -G audio %{name} >/dev/null || true
 
 %files
 %config /etc/shairport-sync.conf
