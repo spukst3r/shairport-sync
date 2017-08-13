@@ -55,7 +55,7 @@ getent passwd %{name} &> /dev/null || useradd --system -c "%{name} User" \
 %doc AUTHORS LICENSES README.md
 
 %changelog
-* Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com> 3.2-1
+* Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com> 3.1-1
 - Failsafe user/group creation for makefile.am (spukst3r@gmail.com)
 
 * Sun Aug 13 2017 Dmitry Fontanov <spukst3r@gmail.com> 3.1-1
